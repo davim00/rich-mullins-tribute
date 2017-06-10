@@ -1,0 +1,105 @@
+body {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-weight: 500;
+  background: url("https://image.ibb.co/heQECa/rm_header.jpg") no-repeat top right fixed;
+  background-size: cover;
+  font-size: 18px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+h2, .h2 {
+  font-size: 40px;
+}
+
+h3, .h3 {
+  font-size: 34px;
+}
+
+.lead {
+  font-size: 130%;
+}
+
+.top-header {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  color: #e1e5e8;
+}
+
+.top-header blockquote {
+  margin: 0 0 30px 0;
+  padding: 0;
+  border: none;
+  font-size: 58px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: .8em;
+  color: rgba(225, 229, 232, .7);
+}
+
+.top-header blockquote:before {
+  content: "\201C";
+  display: inline-block;
+}
+
+.top-header blockquote:after {
+  content: "\201D";
+  display: inline-block;
+}
+
+.top-header h1 {
+  font-size: 120px;
+  margin: 0 0 -15px 0;
+  line-height: 0.8em;
+  color: #e1e5e8;
+  font-weight: normal;
+}
+
+.top-header p {
+  font-size: 68px;
+  color: #bcc8d1;
+}
+
+.content {
+  padding: 60px;
+  background-color: rgba(225, 229, 232, .7);
+  border-radius: 12px;
+  margin-bottom: 60px
+}
+
+.media-object {
+  width: 64px;
+  height: 65px;
+}
+
+.media-head {
+  margin: 0;
+}
+
+@media (max-width: 720px) {
+  .top-header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .top-header blockquote {
+    margin: 0 15px 268px 15px;
+    font-size: 32px;
+  }
+
+  .top-header h1 {
+    font-size: 92px;
+    margin: 0 0 -10px 0;
+  }
+
+  .top-header p {
+    font-size: 52px;
+  }
+
+  .content {
+    padding: 30px;
+    margin-bottom: 30px
+  }
+}
